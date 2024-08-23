@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Error Handling</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Root variables for easy theme customization */
+        :root {
+            --primary-color: #007BFF;
+            --background-color: #f4f4f4;
+            --text-color: #333;
+            --error-color: #D8000C;
+            --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            --border-radius: 5px;
+            --transition-speed: 0.3s;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Headings and Paragraphs */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        /* Error Message Styling */
+        .error-message {
+            display: none;
+            color: var(--error-color);
+            font-size: 1rem;
+            margin-top: 1.25rem;
+            padding: 0.75rem;
+            border: 1px solid var(--error-color);
+            background-color: #ffd2d2;
+            border-radius: var(--border-radius);
+            transition: opacity var(--transition-speed) ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Loading content, please wait...</p>
+    <div class="error-message" id="networkError">We're having trouble connecting. Please check your internet connection and try again.</div>
+
+    <script src="network-error-handler.js"></script>
+</body>
+
+</html>

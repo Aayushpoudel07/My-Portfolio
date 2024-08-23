@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Aayush Poudel - Creative Designer specializing in Graphic Design, Web Development, UI/UX Design, and more.">
+    <meta name="keywords" content="Aayush Poudel, Designer, Graphic Design, Web Development, UI/UX Design, Portfolio">
+    <meta name="author" content="Aayush Poudel">
+    
+    <title>Aayush poudel Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+
+    <!-- Stylesheets -->
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+
+    <!-- Test Page Link (Remove for Production) -->
+    <!-- <link rel="stylesheet" href="./css/test404.css"> -->
+
+</head>
+
+<body>
+    
+    
+
+    <header>
+        <div class="container">
+            <nav id="main-nav" class="flex items-center justify-between" role="navigation" aria-label="Main Navigation">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <!-- Branding content -->
+                    </div>
+                    <div class="nav">
+                        <a href="#" class="nav-link active">Home</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#skills" class="nav-link">Skills</a>
+                        <a href="#certifications" class="nav-link">Certifications</a>
+                        <a href="#education" class="nav-link">Education</a>
+                        <a href="#experience" class="nav-link">Experience</a>
+                        <a href="#work" class="nav-link">Work</a>
+                        
+                    </div>
+                    <style>
+                        .nav a {
+                            text-decoration: none;
+                            padding: 5px 10px;
+                            color: #333;
+                            transition: color 0.3s ease;
+                        }
+                
+                        .nav a.active {
+                            text-decoration: underline;
+                            color: #007bff;
+                        }
+                    </style>
+                </div>
+                <div class="right">
+                    <a href="tel:+9779745867193" class="btn btn-primary contact-button">
+                        <i class="fas fa-phone-alt"></i> Contact Me
+                    </a>
+                </div>
+                
+            </nav>
+            <div class="hero flex items-center justify-between" data-aos="fade-up" data-aos-duration="1000">
+                <div class="left flex-1 flex justify-center">
+                    <img src="./images/Aayush.jpg" alt="Profile picture of Aayush Poudel"loading="lazy">
+                    
+                </div>
+                <div class="right flex-1">
+                    <h6 class="name">Aayush Poudel</h6>
+                    <h1 class="title">I'm a <span class="highlight">UI/UX Designer</span></h1>
+
+                    <p>As a UI/UX Designer and IT student at London Metropolitan University, I specialize in HTML, CSS, and JavaScript. My internship at Seshra Innovation has further honed my skills in user-centered design. I am committed to blending creativity with technology to craft impactful and engaging digital experiences.</p>
+                    <div class="cta-buttons">
+                        <a href="https://drive.google.com/uc?export=download&id=12enM2yHilPmvXa4T9iqX9GYm9O7Vnql9" class="btn btn-secondary" aria-label="Download CV" download="Your_CV_Name.pdf">Download CV</a>
+                        <a href="mailto:poudelayush98@gmail.com" class="btn btn-primary" aria-label="Email Me" style="    margin-left: 10px;">Email Me</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+        <section id="about" class="about" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container flex items-center about-inner-wrap">
+                <!-- About Me Image -->
+                <div class="about-me-image flex-1">
+                    <img src="./images/Aayush 2.jpg" alt="Aayush Poudel" class="about-me-img">
+                </div>
+                <!-- About Me Text -->
+                <div class="about-me-text flex-1">
+                    <h1>About <span class="highlight">Me</span></h1>
+                    <h3>Welcome, I'm Aayush Poudel</h3>
+
+                    <p>
+                        As an IT student at London Metropolitan University, I am passionate about technology and innovation. With a solid foundation in HTML, CSS, and JavaScript, I’ve developed several projects, including a comprehensive database management system to enhance academic efficiency. My dedication to excellence has been recognized with a scholarship for outstanding academic performance, and I’m committed to leveraging technology to create impactful solutions.
+                    </p>
+                    <p>
+                        Currently, as a UI/UX Design Intern at Seshra Innovation, I am refining my skills in user-centered design and creating intuitive, visually appealing digital experiences. I’m enthusiastic about blending creativity with functionality to drive innovation and make a meaningful impact in the tech industry.
+                    </p>
+                    <!-- Social Links -->
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Ayush.poudel.90281943/" aria-label="Follow me on Facebook" class="social-button">
+                            <img src="./images/Facebook.png" alt="Facebook" class="social-icon" style="width: 96px; height: auto; margin: 7px 0;">
+                        </a>
+                        <a href="https://www.linkedin.com/in/aayush-poudel-2bb277301/" aria-label="Connect with me on LinkedIn" class="social-button">
+                            <img src="./images/Linkedln.png" alt="LinkedIn" class="social-icon" style="margin: 6px 0;  width: 63px;  height: auto;">
+                        </a>
+                        <a href="https://github.com/Aayushpoudel07" aria-label="Follow me on GitHub" class="social-button">
+                            <img src="./images/git.png" alt="GitHub" class="social-icon">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+
+        <section id="services" class="services" data-aos="fade-left" data-aos-duration="1000">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Services</h1>
+
+                <p>
+                    I deliever high-quality UI/UX design and web development services, crafting customized, visually appealing websites that are both aesthetically pleasing and functionally robust. My approach focuses on understanding your brand’s core values and translating them into a digital experience that resonates with your target audience. By combining creativity with technical expertise, I ensure that every website I create offers seamless functionality, intuitive navigation, and a user experience that keeps visitors engaged and satisfied. My work is dedicated to enhancing your brand's online presence, driving user engagement, and ultimately contributing to your business success. Together, let's create a website that not only reflects your vision but also establishes a strong connection with your audience, turning visitors into loyal customers.
+                </p>
+                
+                <div class="card-wrapper">
+                    <!-- Existing services -->
+                   
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./images/Web designing.jpg" alt="Web Designing">
+                        <h2>Web Designing</h2>
+                        <p style="text-align: justify;">
+                            Bring your brand’s vision to life with stunning web design. I create visually appealing, user-friendly interfaces 
+                            that captivate your audience and ensure seamless navigation. My focus is on delivering a digital experience 
+                            that truly represents your brand.
+                        </p>
+                        
+                    </div>
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./images/Front end.png" alt="Front End Development" style="    height: 191px;">
+                        <h2>Front End Developer</h2>
+                        <p style="text-align: justify;">
+                            I specialize in creating dynamic and responsive web interfaces that look great on any device. By utilizing the latest 
+                            technologies, I ensure that your website not only performs flawlessly but also delivers a seamless user experience. 
+                            My goal is to build a digital presence that engages users and supports your business objectives.
+                        </p>
+                        
+                    </div>
+                    
+                    <!-- New UI/UX Designer service -->
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./images/Figma 1.png" alt="UI/UX Design">
+                        <h2>UI/UX Design</h2>
+                        <p style="text-align: justify;">
+                            I design intuitive and engaging user experiences that go beyond aesthetics to truly connect with your audience. 
+                            By understanding your business goals and user needs, I create digital solutions that are both visually appealing 
+                            and highly functional. My focus is on crafting interfaces that make it easy for users to navigate your site, 
+                            ensuring a smooth and satisfying experience that helps you achieve your objectives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="freelancer" class="freelancer-section">
+            <div class="container">
+                <div class="freelancer-content">
+                    <div class="freelancer-text">
+                        <h2>Seeking a Skilled and Professional Freelancer?</h2>
+
+                        <p>I specialize in UI/UX design, creating intuitive and visually appealing designs that enhance user experience. Whether you need a complete website design or specific design elements, I’m here to help you bring your vision to life.</p>
+                        <a href="#quote" class="btn hire-me">Hire Me</a>
+                    </div>
+                    <div class="freelancer-image">
+                        <img src="images/Freelancer.jpg" alt="Freelancer at work" loading="lazy">
+                    </div>
+                    
+                </div>
+                <div id="quote" class="quote-form">
+                    <h3>Get a Personalized Estimate</h3>
+                    <form action="https://formspree.io/f/mnnabpzl" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                        <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                        <input type="tel" name="phone" placeholder="Your Phone Number" aria-label="Your Phone Number">
+                        <input type="text" name="budget" placeholder="Estimated Budget" aria-label="Estimated Budget">
+
+                        <textarea name="project-details" placeholder="Could you provide details about your project?" required aria-label="Project Details" minlength="10"></textarea>
+                        <button type="submit" class="btn">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section id="skills" class="skills-section" data-aos="fade-right" data-aos-duration="1000">
+            <div class="container mx-auto px-4 py-8">
+                <h1 class="section-heading text-center text-3xl font-bold mb-6">
+                    <span class="highlight">My</span> Skills
+                </h1>
+                <p class="skills-intro text-justify mb-8">
+                    Discover the diverse skills and expertise I offer to drive your projects forward. With a strong foundation in both technical and soft skills, I am equipped to handle a wide range of challenges and deliver exceptional results. From mastering cutting-edge technologies and frameworks to applying effective communication and problem-solving techniques, my capabilities ensure that every project benefits from a comprehensive and well-rounded approach. Explore how my skills can contribute to achieving your business goals and creating innovative solutions tailored to your needs.
+                </p>
+        
+                <div class="skills-wrapper grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Technical Skills Card -->
+                    <div class="skill-card p-6 bg-white rounded-lg shadow-lg transform transition duration-500 hover:scale-105" data-aos="slide-up" data-aos-duration="1000" aria-label="Technical Skills Card">
+                        <h2 class="skill-card-title text-xl font-semibold mb-4 text-center">Technical Skills</h2>
+                        <ul class="skill-list space-y-2">
+                            <li><strong>Programming Languages:</strong> JavaScript, Python, C</li>
+                            <li><strong>Frameworks:</strong> React, Node.js, Django</li>
+                            <li><strong>Tools:</strong> Git, Docker, AWS</li>
+                            <li><strong>Design Tools:</strong> Figma, Sketch</li>
+                            <li><strong>Programming Languages:</strong> JavaScript, Python, C, HTML, CSS, SQL</li>
+                            <li><strong>Frameworks:</strong> React, Node.js, Django, Angular, Flask
+                        </ul>
+                    </div>
+        
+                    <!-- Soft Skills Card -->
+                    <div class="skill-card p-6 bg-white rounded-lg shadow-lg transform transition duration-500 hover:scale-105" data-aos="slide-up" data-aos-duration="1000" aria-label="Soft Skills Card">
+                        <h2 class="skill-card-title text-xl font-semibold mb-4 text-center">Soft Skills</h2>
+                        <ul class="skill-list space-y-2">
+                            <li><strong>Communication:</strong> Clear and effective communication skills</li>
+                            <li><strong>Time Management:</strong> Efficiently managing time and priorities</li>
+                            <li><strong>Problem-Solving:</strong> Analytical and creative problem-solving abilities</li>
+                            <li><strong>Team Collaboration:</strong> Strong ability to work well in teams</li>
+                        </ul>
+                    </div>
+        
+                    <!-- Project Management Skills Card -->
+                    <div class="skill-card p-6 bg-white rounded-lg shadow-lg transform transition duration-500 hover:scale-105" data-aos="slide-up" data-aos-duration="1000" aria-label="Project Management Skills Card">
+                        <h2 class="skill-card-title text-xl font-semibold mb-4 text-center">Project Management Skills</h2>
+                        <ul class="skill-list space-y-2">
+                            <li><strong>Project Planning:</strong> Experience in developing project timelines, scopes, and resource allocation</li>
+                            <li><strong>Agile Methodologies:</strong> Knowledge of Agile frameworks such as Scrum or Kanban</li>
+                            <li><strong>Risk Management:</strong> Ability to identify potential risks and create mitigation strategies</li>
+                            <li><strong>Stakeholder Communication:</strong> Effective in managing communications and expectations with project stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2 class="certifications-heading">
+                    <span class="my-text">My</span> 
+                    <span class="certifications-text">Certifications</span>
+                </h2>
+                
+                <p>I'm excited to share a selection of certifications I've earned, each reflecting my commitment to advancing my skills and expertise across various fields. These credentials highlight my dedication to staying current with industry standards and continually improving my professional capabilities.</p>
+                <div class="certification-list">
+                    <div class="certification-card">
+                        <img src="images/Cybersecurity.png" alt="Cybersecurity Fundamentals Certificate from IBM SkillsBuild" class="certification-image">
+                        <div class="certification-content">
+                            <h3>Cybersecurity Fundamentals</h3>
+                            <p>Issued by: IBM SkillsBuild</p>
+                            <p>Date: 2024</p>
+                           
+                            <p>Description: This certification provides an understanding of basic cybersecurity concepts, including threat management, network security, and risk management.</p> <!-- Added a brief description -->
+                            <p>Skills Acquired: Network Security, Risk Management, Threat Analysis,Cybersecurity knowledge</p> <!-- Added skills acquired from the certification -->
+                            <a href="https://github.com/Aayushpoudel07/Certification" class="certification-link" target="_blank">View Certificate</a>
+                        </div>
+                        
+                    </div>
+                    <div class="certification-card">
+                        <img src="images/data analysis.png" alt="Career Essentials in Data Analysis Certificate from Microsoft" class="certification-image">
+                        <div class="certification-content">
+                            <h3>Career Essentials in Data Analysis</h3>
+                            <p>Issued by: Microsoft/linkedin</p>
+                            <p>Date: 2024</p>
+                           
+                            <p>Description: This certification offers a foundational understanding of data analysis principles, including data collection, data visualization, and statistical analysis.</p> <!-- Added a brief description -->
+                            <p>Skills Acquired: Data Collection, Data Visualization.</p> <!-- Added skills acquired from the certification -->
+                            <a href="https://github.com/Aayushpoudel07/Certification" class="certification-link" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certification-card">
+                        <img src="images/Aws course completion.png" alt="AWS Course Completion Certificate" class="certification-image">
+                        <div class="certification-content">
+                            <h3>AWS Course Completion</h3>
+                            <p>Issued by: AWS</p>
+                            <p>Date: 2024</p>
+                            
+                            <p>Description: This certification provides a comprehensive overview of Amazon Web Services (AWS) fundamentals, including cloud concepts, AWS core services, security, and architecture.</p> <!-- Added a brief description -->
+                            <p>Skills Acquired: Cloud Concepts, AWS Core Services, Security.</p> <!-- Added skills acquired from the certification -->
+                            <a href="https://github.com/Aayushpoudel07/Certification" class="certification-link" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="my-text">My</span> 
+                    <span class="education-text">Qualifications</span>
+                </h2>
+                
+                <p class="section-description">
+                    Throughout my academic journey, I've had the privilege of learning from esteemed institutions where I've developed a strong foundation in various disciplines. These experiences have shaped my skills, broadened my knowledge, and prepared me to tackle complex challenges in the tech industry.
+                </p>
+                
+                <div class="education-list">
+                    <div class="education-card">
+                        <div class="education-content">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <p class="institution">London Metropolitan University</p>
+                            <p class="year">2023 - Present</p>
+                            <p class="coursework">Relevant Coursework: Data Structures, Algorithms, Web Development, Artificial Intelligence</p>
+                            <p class="skills">Skills Acquired: Advanced Programming, Problem Solving, Data Analysis</p>
+                            <p class="projects">Relevant Projects: AI-Based Chatbot, E-Commerce Website, Data Visualization Tool</p>
+                            <p class="learnings">Key Learnings: Practical experience in developing scalable applications, understanding of machine learning algorithms</p>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-content">
+                            <h3>Higher Secondary Education</h3>
+                            <p class="institution">Kanchanjunga Namuna College</p>
+                            <p class="year">2020 - 2022</p>
+                            <p class="coursework">Relevant Coursework: Physics, Chemistry, Mathematics, Computer Science</p>
+                            <p class="achievements">Achievements: Graduated with Distinction, Top 10% of Class</p>
+                            <p class="skills">Skills Acquired: Analytical Thinking, Advanced Mathematics, Scientific Research</p>
+                            <p class="learnings">Key Learnings: Deep understanding of physical sciences, application of mathematical concepts to problem-solving</p>
+
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-content">
+                            <h3>Secondary Education Examination (SEE)</h3>
+                            <p class="institution">Pragyan Academy School</p>
+                            <p class="year">2014 - 2019</p>
+                            <p class="achievements">Achievements: Graduated with Distinction</p>
+                            <p class="learnings">Key Learnings: Fundamental concepts in Mathematics and Science, Importance of Teamwork and Communication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+            .section-title {
+                font-family: 'Arial', sans-serif; /* Font family */
+                font-size: 2.5rem; /* Font size */
+                font-weight: bold; /* Bold text */
+                text-align: center; /* Center align the text */
+                margin: 2rem 0; /* Margin for spacing */
+                position: relative; /* For positioning pseudo-elements */
+                text-transform: uppercase; /* Uppercase text */
+            }
+        
+            .my-text {
+                color: #7f8c8d; /* Color for "My" */
+                font-size: 2rem; /* Font size for "My" */
+                display: block; /* Display block for styling */
+            }
+        
+            .education-text {
+                color: #3498db; /* Color for "Education" */
+                font-size: 2.5rem; /* Font size for "Education" */
+                display: block; /* Display block for styling */
+            }
+            
+            .section-title::before {
+                content: ''; /* Decorative line */
+                position: absolute;
+                left: 50%;
+                bottom: -10px; /* Position the line below the title */
+                width: 80px; /* Length of the line */
+                height: 4px; /* Thickness of the line */
+                background-color: #3498db; /* Color of the line */
+                transform: translateX(-50%); /* Center the line */
+            }
+        </style>
+        
+        
+        
+        
+        
+        
+        <section id="experience" class="experience" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container">
+                <h1 class="section-heading"><span>Relevant Professional</span> Experience</h1>
+                <p class="section-description">
+                    Dive into a comprehensive overview of my professional journey, highlighting key experiences and achievements. At Seshra Innovation, I've been honing my skills in UI/UX design, where I've been actively involved in creating intuitive and visually engaging interfaces that enhance user experiences. Simultaneously, my internship at Prodigy InfoTech has allowed me to delve into the world of data science, where I've contributed to data analysis and modeling projects, gaining valuable insights and practical experience. These roles have significantly contributed to my growth and expertise in the tech industry.
+                </p>
+                
+                
+                <div class="experience-wrapper grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="experience-card" data-aos="slide-up" data-aos-duration="1000">
+                        <div class="card-header">
+                            <h2>Data Science Intern</h2>
+                            <h3>Prodigy InfoTech</h3>
+                        </div>
+                        <div class="card-date">
+                            <span>July 2024 - September 2024</span>
+                        </div>
+                        <div class="card-body">
+                            <p>During my internship at Prodigy InfoTech, I was involved in data analysis and developed machine learning models. My role included contributing to data-driven projects that significantly enhanced data insights and improved decision-making processes within the team.</p>
+                            <p><strong>Key Responsibilities:</strong> Conducted exploratory data analysis (EDA), developed and fine-tuned machine learning models, and presented findings to stakeholders. Worked closely with the data engineering team to ensure data quality and integration.</p>
+                            <p><strong>Achievements:</strong> Improved model accuracy by 15% through optimization and feature engineering. Developed a data visualization dashboard that facilitated better understanding of key metrics and trends.</p>
+                           
+                        </div>
+                        
+                    </div>
+                    <div class="experience-card" data-aos="slide-up" data-aos-duration="1000">
+                        <div class="card-header">
+                            <h2>UI/UX Design Intern</h2>
+                            <h3>Seshra Innovation</h3>
+                        </div>
+                        <div class="card-date">
+                            <span>August 2024 - October 2024</span>
+                        </div>
+                        <div class="card-body">
+                            <p>At Seshra Innovation, I was responsible for designing and prototyping user interfaces. I collaborated closely with the team to improve user experiences and participated actively in design reviews. My work contributed to enhancing the aesthetics and functionality of various digital products.</p>
+                            <p><strong>Key Responsibilities:</strong> Created wireframes, mockups, and interactive prototypes using Figma and Sketch. Conducted user research and usability testing to gather feedback and iterated on designs. Collaborated with developers to ensure designs were implemented effectively.</p>
+                            <p><strong>Achievements:</strong> Successfully redesigned the onboarding flow for a mobile app, resulting in a 20% increase in user engagement. Contributed to the development of a design system that improved consistency across digital products.</p>
+                            <p><strong>Skills and Tools Used:</strong> Figma, Sketch, Adobe XD, InVision, User Research, Usability Testing, Interaction Design, Prototyping, and Design Systems.</p>
+                         
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="work" class="work" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Work</h1>
+                <p>
+                    Explore a curated selection of projects that showcase my skills and innovative approach in the tech industry. Each project represents a unique challenge that I tackled with dedication and creativity, demonstrating my ability to deliver high-quality solutions. From designing user-centric interfaces to developing data-driven insights, these projects highlight my commitment to excellence and my passion for pushing the boundaries of what's possible. Dive into my work to see how I've transformed ideas into impactful and functional solutions.
+                    </p>
+                <div class="work-gallery">
+                    <div class="work-item " data-aos="slide-left" data-aos-duration="1000">
+                        <div class="video-card">
+                        <img src="./images/figma 2.png" alt="Mobile app Design" class="work-image">
+                        <h3>Moon medicine Project</h3>
+                        <p>
+                            This mobile app design, crafted with Figma, showcases a user-friendly interface that enhances functionality and engagement. Utilizing advanced design and prototyping tools, the project involved wireframing, interactive prototypes, and integrating user feedback, highlighting my expertise in creating intuitive and visually appealing digital experiences.
+                            </p>
+
+                            <!-- Button Container -->
+                            <div class="button-container" >
+                                <a href="https://www.figma.com/design/ZLnAOI4PvaFrcrBoWT04Yz/Team-Work?node-id=0-1&t=KVOCHUpSEWq0Q4Xt-0" target="_blank" class="btn-work" style="text-decoration: none;">Explore on Figma</a>
+                            </div>
+                        </div>
+                        
+                            
+                        
+                    </div>
+        
+                    <!-- Video Projects -->
+                     
+                   <!-- Video Projects -->
+                    <div class="work-item" data-aos="slide-left" data-aos-duration="1000">
+                        <div class="video-card">
+                            <!-- Video Element -->
+                            <video controls class="video-player">
+                                <!-- Update the path as needed -->
+                                <source src="videos/figma 2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <h3>Mobile app Design</h3>
+                            <p class="justified-text">
+                                This video showcases the mobile app design process for a plant care application. It demonstrates advanced design principles, user-centric solutions, and iterative prototyping. Click below to explore the detailed design process on Figma, including how user feedback was integrated to create a highly functional and aesthetically pleasing mobile app.
+                            </p>
+
+                            <!-- Button Container -->
+                            <div class="button-container">
+                                <a href="https://www.figma.com/design/ZLnAOI4PvaFrcrBoWT04Yz/Team-Work?node-id=0-1&t=KVOCHUpSEWq0Q4Xt-0" target="_blank" class="btn-work" style="text-decoration: none;">Explore on Figma</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="work-item" data-aos="slide-left" data-aos-duration="1000">
+                        <div class="video-card">
+                            <video controls class="video-thumbnail">
+                                <source src="./Videos/Frontend.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <h3>Frontend Design</h3>
+                            <p>In this video, the frontend development process for a dynamic web application is explored, showcasing key design strategies and user experience enhancements. View the full design details and insights on Website.</p>
+                    
+                            <!-- Button Container -->
+                            <div class="button-container">
+                                <a href="https://www.figma.com/design/ZLnAOI4PvaFrcrBoWT04Yz/Team-Work?node-id=0-1&t=KVOCHUpSEWq0Q4Xt-0" target="_blank" class="btn-work" style="text-decoration: none;">Explore on Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+    </div>
+     <!-- Additional sections -->
+
+     <footer class="footer bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="footer-content flex flex-col md:flex-row justify-between items-center">
+                <!-- Left Section: Copyright and Contact -->
+                <div class="footer-left text-center md:text-left mb-6 md:mb-0">
+                    <p>&copy; 2024 Aayush Poudel. All rights reserved.</p>
+                    <p class="mt-2">
+                        Email Address: 
+                        <a href="mailto:poudelayush98@gmail.com" class="text-blue-400 hover:underline">poudelayush98@gmail.com</a> | 
+                        
+                    <p class="mt-2">Certified: AWS Cloud Practitioner, IBM Skills Build</p>
+                    <p class="mt-2">
+                        <a href="#contact" class="text-blue-400 hover:underline">Get in Touch</a> | 
+                        <a href="#portfolio" class="text-blue-400 hover:underline">View My Work</a>
+                      </p>
+
+                    <p class="mt-2">
+                        Follow me on: 
+                        <a href="https://www.linkedin.com/in/aayush-poudel-2bb277301/" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a> | 
+                        <a href="https://github.com/Aayushpoudel07" target="_blank" class="text-gray-400 hover:underline">GitHub</a>
+                    </p>
+                    <p class="mt-2">Location: Kathmandu, Nepal</p>
+                </div>
+                
+                <!-- Center Section: Social Media Links -->
+                <div class="footer-center mb-6 md:mb-0">
+                    <ul class="social-links flex justify-center space-x-6">
+                        <li><a href="https://www.linkedin.com/in/aayush-poudel-2bb277301/" target="_blank" aria-label="LinkedIn" class="text-blue-600 hover:text-blue-400 transition-colors"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/Aayushpoudel07" target="_blank" aria-label="GitHub" class="text-gray-900 hover:text-gray-600 transition-colors"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.facebook.com/Ayush.poudel.90281943/" target="_blank" aria-label="Facebook" class="text-blue-600 hover:text-blue-400 transition-colors"><i class="fab fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+                
+    
+                <!-- Right Section: Back to Top and Newsletter Signup -->
+                <div class="footer-right text-center">
+                    <a href="#top" aria-label="Go Back to Top" class="text-blue-400 hover:underline block mb-4">
+    <i class="fas fa-angle-double-up mr-2"></i> Go Back to Top
+</a>
+
+                    </a>
+                    
+                    </a>
+                    
+                    <form action="#" method="post" class="newsletter-form">
+                        <label for="newsletter" class="sr-only">Subscribe to Newsletter</label>
+                        <input type="email" id="newsletter" name="newsletter" placeholder="Subscribe to Newsletter" class="p-2 rounded-l-lg border border-gray-700 focus:outline-none focus:border-blue-500" required>
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-r-lg border border-blue-500">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Map Section at the Bottom -->
+            <div class="map-container mt-8">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14169.16750574166!2d85.33614899999999!3d27.717245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1917d17941d1%3A0x71706a41760e8284!2sKathmandu%2C%20Nepal!5e0!3m2!1sen!2s!4v1652958611560!5m2!1sen!2s" 
+                    width="100%" 
+                    height="500" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        var map = L.map('map').setView([27.7172, 85.3240], 13); // Coordinates for Kathmandu
+    
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    
+        L.marker([27.7172, 85.3240]).addTo(map)
+            .bindPopup('Kathmandu, Nepal')
+            .openPopup();
+    </script>
+    
+    
+    
+
+    
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-..." crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    
+    <!-- Custom Scripts -->
+     
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                duration: 1200, // Duration of animation
+                easing: 'ease-in-out-back', // Easing function
+            });
+    
+            // Initialize Slick Carousel if used in your project
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                $('.your-carousel-class').slick({
+                    // Slick settings go here
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    dots: true,
+                });
+            }
+        });
+        
+    </script>
+    <script>
+        document.querySelectorAll('.nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('.nav a').forEach(link => {
+                    link.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.certification-card');
+    
+            // Initialize Intersection Observer
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+    
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, options);
+    
+            cards.forEach(card => {
+                observer.observe(card);
+            });
+    
+            // Click event to toggle black background
+            cards.forEach(card => {
+                card.addEventListener('click', function() {
+                    // Remove 'clicked' class from all cards
+                    cards.forEach(c => c.classList.remove('clicked'));
+    
+                    // Add 'clicked' class to the clicked card
+                    this.classList.add('clicked');
+                });
+            });
+    
+            // Click event on document to remove 'clicked7' class from all cards
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.certification-card')) {
+                    cards.forEach(card => card.classList.remove('clicked'));
+                }
+            });
+        });
+    </script>
+    
+    
+    
+   
+    </body>
+    </html>
+    
